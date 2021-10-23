@@ -1,0 +1,41 @@
+@import url(bg-colors.css);
+body{
+    background: url(wooden.jpeg);
+    text-align: center;
+    /* margin: auto; */
+    
+    
+}
+
+main{
+margin: 0 auto;
+width: 40%;
+
+}
+
+h2{
+    font-size: 40px;
+}
+
+.background-colors{
+    display: flex ;
+    flex-direction: column;
+
+}
+
+.colores{
+    text-align: center;
+    width: 100%;
+}
+
+.color{
+    /* para centrar el texto dentro de cada casilla */
+    display:flex;
+    align-items: center;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
